@@ -43,27 +43,6 @@ namespace waAgenda
             }
         }
 
-        //protected void Button1_Click(object sender, EventArgs e)
-        //{
-        //    //capturar a string de conexão
-        //    System.Configuration.Configuration rootWebConfig = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("/MyWebSiteRoot");
-        //    System.Configuration.ConnectionStringSettings connString;
-        //    connString = rootWebConfig.ConnectionStrings.ConnectionStrings["ConnectionString"];
-        //    //cria um objeto de conexão
-        //    SqlConnection con = new SqlConnection();
-        //    con.ConnectionString = connString.ToString();
-        //    SqlCommand cmd = new SqlCommand();
-        //    cmd.Connection = con;
-        //    cmd.CommandText = "Insert into contato (nome,email,telefone) values (@nome,@email,@telefone)";
-        //    cmd.Parameters.AddWithValue("nome", TxtNome.Text);
-        //    cmd.Parameters.AddWithValue("email", TxtEmail.Text);
-        //    cmd.Parameters.AddWithValue("telefone", TxtTelefone.Text);
-        //    con.Open();
-        //    cmd.ExecuteNonQuery();
-        //    con.Close();
-        //    GridView1.DataBind();
-        //}
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             try

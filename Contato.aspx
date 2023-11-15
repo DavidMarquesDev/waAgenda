@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
-    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Larger" Text="Adcionar novos Contatos "></asp:Label>
+    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Larger" Text="Adcionar novos Contatos"></asp:Label>
     <br />
     <br />
     <asp:Label ID="Label3" runat="server" Text="Nome:"></asp:Label>
